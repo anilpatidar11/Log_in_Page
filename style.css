@@ -3,59 +3,422 @@
   padding: 0;
   box-sizing: border-box;
 }
-.checkbox-div{
+.main-div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #2b2738;
+
+
+}
+.checkbox-div {
   color: white;
 }
 
+.bg-div {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  width: 50%;
+padding: 10px;
+}
 
-.bg-div{
-position: relative;
-text-align: center;
-color: white;
+.bg-div img {
+  width: 100%;
+   height: 100%;
+    border-radius: 15px
+}
+
+.login-form {
+  height: 100vh;
+  width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;  
+   margin-bottom: 10px;
+   margin-top: auto;
+}
+
+.fname-div{
+
+display: flex;
+width: 100%;
+justify-content: space-evenly; /* Adjust spacing between inputs */
+align-items: center;
+/* padding-bottom: 12px; */
+margin-bottom: 10px
+}
+.fname-div input{
+
+  flex: 1; /* Each input takes up equal space in the row */
+  padding: 10px ;
+  background-color: rgb(59, 54, 76);
+    border: none;
+    border-radius: 5px;
+margin-right: 4px;
 
 }
 
-input[type="checkbox"] {
+.main-word-div{
+ 
+margin-bottom: 15px;
+  
+    }
 
-  width: 16px;
 
-  height: 16px;
 
+
+
+input[type="email"] {
+  padding: 10px ;
+  width: 100%;
+  background-color: rgb(59, 54, 76);
+  border: none;
+  border-radius: 5px;
+  /* margin-bottom: 12px; */
+  margin-bottom: 10px
+}
+
+input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(59, 54, 76);
+  border: none;
+  border-radius: 5px;
+  /* margin-bottom: 12px; */
+  margin-bottom: 10px
+}
+
+
+
+
+.checkbox-div{
+width: 100%;
+
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+
+}
+.agree-1{
+  color: rgb(135, 133, 144);
 } 
 
+.label-1 {
+  width: 18px;
+  height: 20px;
+  margin-right: 5px;
+}
 
+
+
+
+
+
+button{
+  padding: 12px;
+  width: 100%;
+  background-color: rgb(110, 84, 181);
+  border-radius: 5px;
+  color: rgb(253, 252, 254);
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 13px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bottom-center {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(169, 168, 174);
+
+}
+
+
+.bottom-1-word{
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+.bottom-2-word{
+padding-right: 6px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 28px;
+}
+
+.form-1-word{
+  color: rgb(253, 252, 254);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  padding-top: 20px;
+}
+
+.form-2-word{
+  color: rgb(135, 133, 144);
+  /* margin-right: 240px; */
+  /* padding-bottom: 30px; */
+
+}
+.btn-div{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.anchor-div{
+  padding-left: 5px; color: rgb(110, 84, 181)
+}
+
+
+.register-border{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgb(135, 133, 144);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.after-reg-border{
+  background: #2b2738;
+  padding: 0 20px;
+  color: rgb(135, 133, 144);
+}
+
+.icon-pic{
+  position: absolute; left: 58px; padding-bottom: 4px
+
+}
+
+
+
+
+
+
+.btn-google{
+display: flex;
+justify-content: center;
+justify-items: center;
+
+  
+ 
+  background-color: rgb(59, 54, 76);
+  color: rgb(253, 252, 254);
+  border: 1px solid rgb(135, 133, 144);
+  border-radius: 6px;
+
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.applebt{
+ 
+  background-color: rgb(59, 54, 76);
+  border: 1px solid rgb(135, 133, 144);
+    color: rgb(253, 252, 254);
+    padding: 12px 16px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.google-imgg{
+  margin: 5px;
+}
+
+.apple-logo{
+ text-align: center;
+}
 
 .top-left {
   position: absolute;
   top: 1px;
   left: 10px;
-  
-
 }
-.top-left img{
+.top-left img {
   height: 100px;
   width: 100px;
-
-
 }
 
 .top-right {
   position: absolute;
   top: 38px;
-  right: 15px;
+  right: 20px;
 
-  background-color:#5b88dc;
+  background-color: #5b88dc;
   padding: 2px 15px;
   border-radius: 17px;
 }
 
-.bottom-center{
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:rgb(169,168,174);
+
+
+
+
+form{
+  display: flex;
+       
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 
 
+@media only screen and (max-width: 600px) {
+
+  .main-div{
+    height: 100vh;
+    width: 100vw;
+display: flex;
+justify-content: space-between;
+justify-items: center;
+flex-direction: column;
+
+background-color: #2b2738;
+  }
+
+.bg-div{
+height: 40vh;
+width: 100%;
+
+}
+
+.login-form{
+  height: 100vh;
+width: 100%;
+
+}
+
+.fname-div{
+
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly; /* Adjust spacing between inputs */
+  align-items: center;
+  
+  }
+  .fname-div input{
+  
+    flex: 1; /* Each input takes up equal space in the row */
+    padding: 10px ;
+    background-color: rgb(59, 54, 76);
+      border: none;
+      border-radius: 5px;
+  margin-right: 4px;
+  width: 50%;
+  }
+  
+
+  .bottom-center {
+   height: 10vh;
+    width: 100%;
+  }
+
+
+
+
+  .form-1-word{
+    color: rgb(253, 252, 254);
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  
+  .form-2-word{
+    color: rgb(135, 133, 144);
+
+    padding-bottom: 30px;
+  
+  }
+
+  .login-form {
+    height: 100vh;
+    width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     flex-direction: column; 
+  
+     
+  }
+
+  .bottom-1-word{
+font-size:x-large;
+  }
+
+  .bottom-2-word{
+    font-size: x-large;
+  }
+
+
+
+  .checkbox-div{
+    width: 100%;
+ 
+      height: 30px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    
+    
+    }
+    .agree-1{
+      color: rgb(135, 133, 144);
+    } 
+    
+    .label-1 {
+      width: 18px;
+      height: 20px;
+      margin-right: 5px;
+    }
+    
+
+}
+
+
+
+
+@media  (min-width: 600px) and (max-width: 900px)  {
+
+  .main-div{
+    height: 100vh;
+    width: 100vw;
+display: flex;
+justify-content: space-between;
+justify-items: center;
+flex-direction: column;
+
+background-color: #2b2738;
+  }
+
+  .bg-div{
+    height: 40vh;
+    width: 100%;
+    
+    }
+    
+    .login-form{
+      height: 100vh;
+    width: 100%;
+    
+    }
+
+
+
+}

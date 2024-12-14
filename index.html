@@ -36,265 +36,106 @@
     <title>Login Page New</title>
   </head>
   <body>
-    <div
-      class="main-div"
-      style="
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 25px;
-        background-color: #2b2738;
-        ;
-      "
-    >
-      <div class="bg-div w-50 h-100">
-        <img style="width: 100%; height: 100% ;border-radius: 10px;" src="images/bg_img.jpg" alt="" />
+    <div class="main-div">
+      <div class="bg-div">
+        <img src="images/bg_img.jpg" alt="" />
 
         <div class="top-left">
           <img src="images/logo-removebg-preview.png" alt="" />
         </div>
 
         <div class="top-right">
-          <span style="font-size: medium">Back to website</span>
+          <span style="font-size: medium ">Back to website</span>
           <span style="padding-left: 2px">
             <i class="fa-solid fa-arrow-right"></i
           ></span>
         </div>
         <div class="bottom-center text-light">
-          <h2
-            style="
-              margin-bottom: 0px;
-              font-family: Arial, Helvetica, sans-serif;
-              font-size: 28px;
-            "
-          >
-            Capturing Moments,
-          </h2>
-          <h2
-            style="
-              padding-right: 6px;
-              font-family: Arial, Helvetica, sans-serif;
-              font-size: 28px;
-            "
-          >
-            Creating Memories
-          </h2>
+          <h2 class="bottom-1-word">Capturing Moments,</h2>
+          <h2 class="bottom-2-word">Creating Memories</h2>
         </div>
       </div>
 
-      <div
-        class="w-50 h-100"
-        style="display: flex; align-items: center; justify-content: center"
-      >
-        <form
-          class="h-100 w-75"
-          style="
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: column;
-          
-          "
-        >
-          <h2
-            style="
-              color: rgb(253, 252, 254);
-      
-              margin-right: 115px;
-              font-family: Arial, Helvetica, sans-serif;
-              font-size: 45px;
-            padding-top: 20px;
-            "
-          >
-            Create an account
-          </h2>
-          <span
-            style="
-              color: rgb(135, 133, 144);
-              margin-right: 240px;
-              padding-bottom: 30px;
-            "
-            >Already have an account?<a
-              href=""
-              style="padding-left: 5px; color: rgb(110, 84, 181)"
-              >Log in</a
-            ></span
-          >
+      <div class="login-form">
+        <form class="h-100 w-75">
+        <div class="main-word-div">
+            <h2 class="form-1-word">Create an account</h2>
+          <span class="form-2-word"
+            >Already have an account?
 
-          <div class="fname-div" style="padding-bottom: 12px; width: 100%;">
-            <input
-              type="text"
-              id="fname"
-              placeholder="First Name"
-              style="
-                padding: 10px 40px;
-                background-color: rgb(59, 54, 76);
-                border: none;
-                border-radius: 5px;
-                padding-left: 10px;
-                margin-right: 20px;
-              "
-            />
+            <a class="anchor-div" href="" 
+              >Log in</a >  
+              
+              </span>
+        </div>
 
-            <input
-              type="text"
-              id="lname"
-              placeholder="Last Name"
-             
-              style="
-                padding: 10px 40px;
-                background-color: rgb(59, 54, 76);
-                border: none;
-                border-radius: 5px;
-                padding-left: 15px;
-              "
-            />
+          <div class="fname-div">
+            <input type="text" id="fname" placeholder="First Name" class="fname-text1" />
+
+            <input type="text" id="lname" placeholder="Last Name" class="fname-text1" />
           </div>
 
-          <input
-            type="email"
-            id="email"
-            placeholder="Email"
-            style="
-              padding: 10px;
-              width: 100%;
-              background-color: rgb(59, 54, 76);
-              border: none;
-              border-radius: 5px;
-        margin-bottom: 12px;
-            "
-          />
+          <input type="email" id="email" placeholder="Email" />
 
           <input
             type="password"
             id="password"
             placeholder="Enter your password"
-            style="
-              padding: 10px;
-              width: 100%;
-              background-color: rgb(59, 54, 76);
-              border: none;
-              border-radius: 5px;
-              margin-bottom: 12px;
-            "
           />
 
-          <div
-            class="checkbox-div"
-            style="
-              display: flex;
-              margin-right: 85px;
-              width: 80%;
-              padding-bottom: 10px;
-            "
-          >
-            <label style="padding-right: 15px; padding-top: 2px">
-              <input type="checkbox" />
-            </label>
-            <div style="color: rgb(135, 133, 144)
-            ;padding-right: 7px;">I agree to the</div>
+          <div class="checkbox-div">
+          
+<input type="checkbox" class="label-1"> 
 
-            <a href="#" style="color: rgb(110, 84, 181)">Terms&Conditions</a>
+<span   class="agree-1"> I agree to the
+ </span>
+ <a href="#" style="color: rgb(110, 84, 181)">Terms&Conditions</a>
+
           </div>
 
-          <button
-            type="Submit"
-            style="
-              padding: 12px;
-              width: 100%;
-              background-color: rgb(110, 84, 181);
-              border-radius: 5px;
-              color: rgb(253, 252, 254);
-              border: none;
-              margin-top: 15px;
-           margin-bottom: 13px;
-        
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            "
-          >
-            Create account
-          </button>
+          <button type="Submit">Create account</button>
 
-      
           <div>
-            <p
-              style="
-                width: 80vh;
-                text-align: center;
-                border-bottom: 1px solid rgb(135, 133, 144);
-                line-height: 0.1em;
-                margin: 10px 0 20px;
-              "
+            <p  class="register-border"
+             
             >
-              <span
-                style="
-                  background: #2b2738;
-                  padding: 0 20px;
-                  color: rgb(135, 133, 144);
-            
-                "
+              <span class="after-reg-border"
+             
                 >Or register with</span
               >
             </p>
           </div>
 
-          <div
-            class="btn-div w-100"
-            style="
-              position: relative;
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              padding-bottom: 35px;
-            "
-          >
-            <div style="position: absolute; left: 58px;padding-bottom: 4px;">
-              <img src="images/gggg.png" alt="" height="15px" width="15px" />
-            </div>
-            <button
+          <div class="btn-div w-100">
+     
+             
             
-              style="
-                padding: 10px 80px;
-                width: 80%;
-                background-color: rgb(59, 54, 76);
-                color: rgb(253, 252, 254);
-                border: 1px solid rgb(135, 133, 144);
-                border-radius: 6px;
-            
-                font-size: 18px;
-                font-family: Arial, Helvetica, sans-serif;
-              "
-            >
-              Google
+            <button class="btn-google">
+              
+              <img src="images/gggg.png" alt="" height="15px" width="15px" class="google-imgg" />
+              Google</button>
+
+          
+       
+
+            <button class="applebt">
+
+              <i class="fa-brands fa-apple "></i>
+               Apple
             </button>
 
-            <div style="position: absolute; left: 318px">
-              <i
-                class="fa-brands fa-apple fa-lg"
-                style="color: rgb(255, 255, 255); "
-              ></i>
-            </div>
-            <button
-              class="apple"
-              style="
-                padding: 10px 80px;
-                width: 80%;
-                background-color: rgb(59, 54, 76);
-                color: rgb(253, 252, 254);
-                margin-left: 15px;
-                border-radius: 6px;
-                font-family: Arial, Helvetica, sans-serif;
-                border: 1px solid rgb(135, 133, 144);
-                font-size: 18px;
-              "
-            >
-              Apple
-            </button>
+
           </div>
+
+
+
+
+          
         </form>
       </div>
     </div>
   </body>
 </html>
+
+
+
